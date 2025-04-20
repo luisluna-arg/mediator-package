@@ -1,0 +1,30 @@
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+# CA1040: Avoid empty interfaces
+dotnet_diagnostic.CA1040.severity = none
+
+[*.cs]
+# IDE0160: Convert to block scoped namespace
+dotnet_diagnostic.IDE0160.severity = none
+
+# CA1040: Avoid empty interfaces
+dotnet_diagnostic.CA1040.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# SA1633: File should have header
+dotnet_diagnostic.SA1633.severity = none
+
+# CS8019: Info: Unnecessary using directive.
+dotnet_diagnostic.CS8019.severity = error
+
+# SA1010: Opening square brackets should not be preceded by a space
+dotnet_diagnostic.SA1010.severity = none
+ 
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = none
+
+# SA1200: Using directive should appear within a namespace declaration
+dotnet_diagnostic.SA1200.severity = none
